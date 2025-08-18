@@ -67,7 +67,7 @@ function themify_icons_shortcode( $atts, $content = '' ) {
 	}
 	$output .= '<i class="' . esc_attr( themify_icons_get_icon( $icon ) ) . '" style="'. esc_attr( $icon_color ) .'"></i> ';
 	if( $text ) {
-		$output .= '<span class="icon-text"'. $text_color .'>' . $text . '</span>';
+		$output .= '<span class="icon-text"'. $text_color .'>' . esc_html( $text ) . '</span>';
 	}
 	if( $link ) {
 		$output .= '</a>';

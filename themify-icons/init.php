@@ -2,7 +2,7 @@
 /*
 Plugin Name:  Themify Icons Plugin
 Plugin URI:   https://themify.me/themify-icons
-Version:      2.0.3 
+Version:      2.0.4 
 Author:       Themify
 Description:  Insert the Themify Icons easily in your post-content, WordPress menus, and widget titles.
 Text Domain:  themify-icons
@@ -15,7 +15,7 @@ if ( !defined( 'ABSPATH' ) ) exit;
 
 class Themify_Icons {
 
-    const THEMIFY_ICONS_VERSION='2.0.3';
+    const THEMIFY_ICONS_VERSION='2.0.4';
 
 	public static function init() {
 		load_plugin_textdomain( 'themify-icons', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
